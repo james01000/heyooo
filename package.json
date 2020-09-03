@@ -1,0 +1,23 @@
+{
+  "name": "visuaaall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon baap.js",
+    "start-server": "node bapp.js"
+  },
+  "author": "james prakash",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body": "^5.1.0",
+    "ejs": "^3.1.5",
+    "pug": "^3.0.0",
+    "express-handlebars": "^3.0.2"
+  }
+}
